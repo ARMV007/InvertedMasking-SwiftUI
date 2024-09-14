@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            InvertedMaskingSample(logo:"playstation.logo", gradiantColors: [.green], title: "My card", subTitle: "Gift card")
+            InvertedMaskingSample(title: "WWDC24", subTitle: "Abhishek Verma")
+            InvertedMaskingSample(logo: "xbox.logo", gradiantColors: [.blue, .green, .cyan], title: "Xbox Live", subTitle: "Abhishek Verma")
+            InvertedMaskingSample(logo:"playstation.logo", gradiantColors: [.red, .blue, .yellow, .green], title: "My card", subTitle: "Gift card")
         }
-        .padding()
+        .padding(20)
     }
 }
 

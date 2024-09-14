@@ -14,6 +14,7 @@
 		53CB1DF72C95CE0E00272FAE /* SwiftUI_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB1DF62C95CE0E00272FAE /* SwiftUI_DemoTests.swift */; };
 		53CB1E012C95CE0E00272FAE /* SwiftUI_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB1E002C95CE0E00272FAE /* SwiftUI_DemoUITests.swift */; };
 		53CB1E032C95CE0E00272FAE /* SwiftUI_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB1E022C95CE0E00272FAE /* SwiftUI_DemoUITestsLaunchTests.swift */; };
+		53CB1E112C95CF8900272FAE /* InvertedMaskingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB1E102C95CF8900272FAE /* InvertedMaskingSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		53CB1DFC2C95CE0E00272FAE /* SwiftUI_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CB1E002C95CE0E00272FAE /* SwiftUI_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DemoUITests.swift; sourceTree = "<group>"; };
 		53CB1E022C95CE0E00272FAE /* SwiftUI_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53CB1E102C95CF8900272FAE /* InvertedMaskingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedMaskingSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		53CB1DE32C95CE0C00272FAE /* SwiftUI_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				53CB1E0F2C95CEF000272FAE /* Sample View */,
 				53CB1DE42C95CE0C00272FAE /* SwiftUI_DemoApp.swift */,
 				53CB1DE62C95CE0C00272FAE /* ContentView.swift */,
 				53CB1DE82C95CE0E00272FAE /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				53CB1E022C95CE0E00272FAE /* SwiftUI_DemoUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_DemoUITests;
+			sourceTree = "<group>";
+		};
+		53CB1E0F2C95CEF000272FAE /* Sample View */ = {
+			isa = PBXGroup;
+			children = (
+				53CB1E102C95CF8900272FAE /* InvertedMaskingSample.swift */,
+			);
+			path = "Sample View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				53CB1DE72C95CE0C00272FAE /* ContentView.swift in Sources */,
 				53CB1DE52C95CE0C00272FAE /* SwiftUI_DemoApp.swift in Sources */,
+				53CB1E112C95CF8900272FAE /* InvertedMaskingSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
